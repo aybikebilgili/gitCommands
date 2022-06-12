@@ -15,8 +15,10 @@ log : Geçmişte yaptığın commit mesajlarını gösterir. (q ile çıkılır.
 
 commit --amend : En son eklenen commit mesajını değiştirmek için kullanılır. Fakat direkt çalışmaz. Bu komuttan sonra 'i'ye basmak gerekir. Ardından girilen mesaj tekrar düzenlenebilecektir. Düzenlendikten sonra esc'ye basılır ve ':wq!' yazılıp entera basılır.
 
-checkout -b BRANCH_NAME : Yeni branch oluşturur.
+# branch
 
-checkout BRANCH_NAME : Branch'ı değiştirir / belirlenen branch'ın içine girer.
+git checkout -b BRANCH_NAME : Yeni branch oluşturur.
 
-branch : Tüm branch'ları gösterir. İçinde olduğu branch'ı yeşil gösterir.
+git checkout BRANCH_NAME : Branch'ı değiştirir / belirlenen branch'ın içine girer.
+
+git branch : Tüm branch'ları gösterir. İçinde olduğu branch'ı yeşil gösterir.
