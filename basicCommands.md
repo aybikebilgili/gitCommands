@@ -1,6 +1,6 @@
 # git Commands
 
-## git;
+### git...
 
 ### push : karşıya yüklemek
 
@@ -11,7 +11,7 @@ status : git init komutunu daha önce çalıştırıp çalıştırmadığının 
 rm : "git add 'files_name'"
 komutunu geri alır, gitlenecek dosyaların tekrar girilmesini sağlar.
 
-log : geçmişte yaptığın commit mesajlarını gösterir.
+log : Geçmişte yaptığın commit mesajlarını gösterir. (q ile çıkılır.)
 
 commit --amend : En son eklenen commit mesajını değiştirmek için kullanılır. Fakat direkt çalışmaz. Bu komuttan sonra 'i'ye basmak gerekir. Ardından girilen mesaj tekrar düzenlenebilecektir. Düzenlendikten sonra esc'ye basılır ve ':wq!' yazılıp entera basılır.
 
